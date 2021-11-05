@@ -1,0 +1,12 @@
+openvino-dev[pytorch,tensorflow2]==2021.4.*
+matplotlib<3.4
+gdown
+pytube
+yaspin
+
+# Jupyter requirements
+jupyterlab
+
+# Monai training
+monai
+pytorch_lightning
