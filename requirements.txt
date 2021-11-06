@@ -6,6 +6,7 @@ yaspin
 
 # Jupyter requirements
 jupyterlab
+ipywidgets
 nbval
 
 # Monai training
