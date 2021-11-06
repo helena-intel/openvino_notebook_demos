@@ -6,7 +6,11 @@ yaspin
 
 # Jupyter requirements
 jupyterlab
+nbval
 
 # Monai training
 monai
 pytorch_lightning
+
+# Datumaro
+datumaro
