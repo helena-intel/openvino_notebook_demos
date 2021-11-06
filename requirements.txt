@@ -1,4 +1,4 @@
-openvino-dev[pytorch,tensorflow2]==2021.4.*
+openvino-dev[pytorch,tensorflow2]==2021.4.1
 matplotlib<3.4
 gdown
 pytube
