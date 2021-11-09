@@ -67,7 +67,7 @@ jobs:
         jupyter lab notebooks --help
     - name: Analysing with nbval
       run: |
-        python -m pytest --nbval --durations 10
+        python -m pytest --nbval --durations 10 --ignore hand_pose
     - name: Cache openvino pip files
       run: |
         # Uninstall all files except openvino files to limit cache size
