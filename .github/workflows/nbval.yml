@@ -28,7 +28,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-18.04, ubuntu-20.04, windows-latest]
-        python: [3.6, 3.7, 3.8]
+        python: [3.7, 3.8]
         include:
         - os: ubuntu-18.04
           pip_cache_path: ~/.cache/pip
@@ -71,4 +71,4 @@ jobs:
     - name: Cache openvino pip files
       run: |
         # Uninstall all files except openvino files to limit cache size
-        pip freeze | grep -v openvino | grep -v nncf | xargs pip uninstall -y
+        pip freeze | grep -v openvino | grep -v nncf | grep -v medmnist | xargs pip uninstall -y
