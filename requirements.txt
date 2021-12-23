@@ -12,6 +12,7 @@ nbval
 # Monai training
 monai
 pytorch_lightning
+nncf[torch]
 
 # Datumaro
 datumaro
