@@ -1,0 +1,2 @@
+omz_downloader --output_dir /home/jovyan/open_model_zoo_models --cache_dir /home/jovyan/open_model_zoo_cache --precision FP16 --list /home/jovyan/omz_object_detection/models.lst --jobs 4
+
